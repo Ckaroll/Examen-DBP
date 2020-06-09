@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {background-color:rgb(177, 136, 136);}
+            legend {font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 25px;}
+            h1 {color:black;text-align: center;}
+            input {font-family: Arial, Helvetica, sans-serif;font-size: 15px;}
+            label {font-family: Arial, Helvetica, sans-serif;font-size: 15px;}
+            input {font-family: Arial, Helvetica, sans-serif;font-size: 15px;}
+            fieldset{color: white;}
+        </style>
+        <title>Formulario de registro - Mi web</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre..." maxlength="50"/><br>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="apellidos..." maxlength="50"/><br>
+                <label>Sexo</label>
+                <select>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                </select>
+                <br>
+                <label>Correo</label>
+                <input type="text" placeholder="Correo..."><br>
+                <input type="checkbox" name="verifi info" checked value="1" />Recibir informacion de ofertas y novedades <br />
+                <input type="checkbox" name="verifi firma" checked value="1" />Acepto las condiciones<br />
+                
+                <p class="center-content"><input type="submit" class="btn btn-green" value="Enviar"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
